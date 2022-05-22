@@ -1,0 +1,14 @@
+{
+  // type script 파일 속성
+
+  // src 폴더 안의 파일들을 확인한다.
+  "include": ["src"],
+  "compilerOptions": {
+    // outDir = 컴파일된 java script 파일이 생성될 폴더 지정
+    "outDir": "bulid",
+    // 컴파일되는 버전 변경 가능
+    "target": "ES6",
+    // declaration file (정의 파일)
+    "lib": ["ES6", "DOM"]
+  }
+}
