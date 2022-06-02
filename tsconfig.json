@@ -4,11 +4,12 @@
   // src 폴더 안의 파일들을 확인한다.
   "include": ["src"],
   "compilerOptions": {
-    // outDir = 컴파일된 java script 파일이 생성될 폴더 지정
-    "outDir": "bulid",
-    // 컴파일되는 버전 변경 가능
-    "target": "ES6",
-    // declaration file (정의 파일)
-    "lib": ["ES6", "DOM"]
+    "outDir": "bulid", // outDir = 컴파일된 java script 파일이 생성될 폴더 지정
+    "target": "ES6", // 컴파일되는 버전 변경 가능
+    "lib": ["ES6"], // declaration file (정의 파일) = 자바스크립트 코드의 모양(형태)을 설명해주는 파일
+    "strict": true,
+    // "allowJs": true, // 자바스크립트 허용 여부
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
